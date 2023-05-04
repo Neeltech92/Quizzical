@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+.quiz-container {
+    padding: 1em 4em;
+}
+
+.option-container {
+    display: flex;
+    gap: 1em;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #293264;
+    border-radius: 100px;
+    padding: 5px 10px;
+}
+
+.select {
+    background: #D6DBF5;
+}
+
+.correct {
+    background: #94D7A2;
+}
+
+.wrong {
+    background: #F8BCBC;
+}
+
+button {
+    cursor: pointer;
+}
